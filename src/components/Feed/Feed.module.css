@@ -1,0 +1,10 @@
+/* Chrome Safari Opera */
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+/* IE Edge */
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
